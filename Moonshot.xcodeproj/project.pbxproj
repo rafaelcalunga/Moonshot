@@ -53,6 +53,7 @@
 		6D4731EC2526730E00887D67 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		6D4731F2252673FB00887D67 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		6D4731F7252674FD00887D67 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		6D4732022526764400887D67 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 				6D4731AB25251E4A00887D67 /* MoonshotTests */,
 				6D4731B625251E4A00887D67 /* MoonshotUITests */,
 				6D47319825251E4800887D67 /* Products */,
+				6D4732022526764400887D67 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
