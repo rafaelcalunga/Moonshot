@@ -31,28 +31,40 @@ struct MissionView: View {
                         .padding()
                     
                     ForEach(self.astronauts, id: \.role) { crewMember in
-                        HStack {
-                            Image(crewMember.astronaut.id)
-                                .resizable()
-                                .frame(width: 83, height: 60)
-                                .clipShape(RoundedRectangle(cornerRadius: 8))
-                                .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.primary, lineWidth: 1))
+                        NavigationLink(destination: AstronautView(astronaut: crewMember.astronaut)) {
                             
-                            VStack(alignment: .leading) {
-                                Text(crewMember.astronaut.name)
-                                    .font(.headline)
+                            HStack {
+                                Image(crewMember.astronaut.id)
+                                    .resizable()
+                                    .frame(width: 83, height: 60)
+                                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                                    .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.primary, lineWidth: 1))
                                 
-                                Text(crewMember.role)
-                                    .foregroundColor(.secondary)
+                                VStack(alignment: .leading) {
+                                    Text(crewMember.astronaut.name)
+                                        .font(.headline)
+                                    
+                                    Text(crewMember.role)
+                                        .foregroundColor(.secondary)
+                                }
+                                
+                                Spacer()
+                                
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(Color(.systemGray3))
+                                    .font(Font.system(size: 14).bold())
                             }
-                            
-                            Spacer()
+                            .padding(.trailing)
                         }
-                        .padding(.horizontal)
+                        .buttonStyle(PlainButtonStyle())
+                        
+                        Divider()
                     }
+                    .padding(.leading, 20.0)
                     
                     Spacer(minLength: 25)
                 }
+                .padding(10.0)
             }
         }
         .navigationBarTitle(Text(mission.displayName), displayMode: .inline)
@@ -87,6 +99,6 @@ struct MissionView_Previews: PreviewProvider {
     static let missions: [Mission] = Bundle.main.decode("missions.json")
     
     static var previews: some View {
-        MissionView(mission: missions[4], astronauts: astronauts)
+        MissionView(mission: missions[0], astronauts: astronauts)
     }
 }
