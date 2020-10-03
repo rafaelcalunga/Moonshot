@@ -2,7 +2,7 @@
 
 This app details some of the history behind NASA’s Apollo space program.
 
-![Moonshot](https://github.com/rafaelcalunga/Moonshot/blob/master/moonshot.gif)
+![Moonshot](https://github.com/rafaelcalunga/Moonshot/blob/main/moonshot.gif)
 
 I made this project to improve my knowledge in iOS development, specially SwiftUI.
 
