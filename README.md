@@ -2,6 +2,8 @@
 
 This app details some of the history behind NASA’s Apollo space program.
 
+![Moonshot](https://github.com/rafaelcalunga/Moonshot/blob/master/moonshot.gif)
+
 I made this project to improve my knowledge in iOS development, specially SwiftUI.
 
 I learned how to:
@@ -14,3 +16,5 @@ I learned how to:
 - Use generics to load any kind of Codable data
 
 This app was made using the course **100 Days of SwiftUI** from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)
+
+This project uses data from [Wikipedia](https://www.wikipedia.org) that is is licensed under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)

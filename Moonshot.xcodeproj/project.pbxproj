@@ -60,6 +60,7 @@
 		6D4732062526787000887D67 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		6D728CDF2527C7130025368F /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		6D728CE72527D9AD0025368F /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		6DA3F99E25293AE800802417 /* moonshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = moonshot.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 				6D4731AB25251E4A00887D67 /* MoonshotTests */,
 				6D4731B625251E4A00887D67 /* MoonshotUITests */,
 				6D47319825251E4800887D67 /* Products */,
+				6DA3F99E25293AE800802417 /* moonshot.gif */,
 				6D4732022526764400887D67 /* README.md */,
 			);
 			sourceTree = "<group>";
